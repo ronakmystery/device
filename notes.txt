@@ -1,0 +1,1 @@
+sudo apt install -y python3-gpiozero python3-lgpio git
