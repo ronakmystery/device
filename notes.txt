@@ -1,1 +1,5 @@
-sudo apt install -y python3-gpiozero python3-lgpio git
+sudo apt install -y python3-gpiozero python3-lgpio git python3-pip nodejs npm
+
+
+
+pip install fastapi "uvicorn[standard]" --break-system-packages

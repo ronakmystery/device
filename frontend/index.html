@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Relay Monitor</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+    <h2>Relay State</h2>
+    <div class="card">
+        <canvas id="relayChart"></canvas>
+
+        <div class="controls">
+            <button id="relayToggle">TOGGLE RELAY</button>
+            <div class="state">
+                Current: <span id="relayState">--</span>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="/static/app.js"></script>
+</body>
+
+</html>
